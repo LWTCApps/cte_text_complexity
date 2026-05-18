@@ -22,7 +22,8 @@ const programData = {
     "strategies": ["Frayer Model Vocabulary Cards", "Flowcharting equity change steps", "Think-Aloud Modeling with financial statements", "Guided Annotation of cause-and-effect phrases", "Paired Explanation using real/simulated business examples"],
     "text_source": "Accredited Business Accountant Prep Course (Equity & Retained Earnings section)",
     "placement": "Text is dense with financial terminology and sequential logic. Learners must interpret multi-step accounting processes. Reading requires precision with abstract concepts.",
-    "image": "images/accounting_operations.jpg"
+    "image": "images/accounting_operations.jpg",
+    "sample_image": "images/Program_Text_Examples_images/Accounting_Operations_1.png, images/Program_Text_Examples_images/Accounting_Operations_2.png, images/Program_Text_Examples_images/Accounting_Operations_3.png"
   },
   "applied_cybersecurity": {
     "name": "Applied Cybersecurity",
@@ -45,7 +46,8 @@ const programData = {
     "strategies": ["Dual Coding (flow diagrams + text)", "Annotation Routines", "Vocabulary Clustering", "Logic Retell ('explain step-by-step')", "Error-Analysis Walkthroughs", "Worked-Example Comparisons", "Chunking Long Passages", "Prediction Prompts before executing a test"],
     "text_source": "OWASP Web Security Testing Guide; API security chapters",
     "placement": "Best suited for students who can follow multi-step procedures, interpret structured text (JSON/XML), persist through troubleshooting, and reason about cause-and-effect.",
-    "image": "images/applied_cybersecurity.jpg"
+    "image": "images/applied_cybersecurity.jpg",
+    "sample_image": "images/Program_Text_Examples_images/Applied_Cybersecurity_1.png, images/Program_Text_Examples_images/Applied_Cybersecurity_2.png, images/Program_Text_Examples_images/Applied_Cybersecurity_3.png"
   },
   "auto_collision": {
     "name": "Automotive Collision Technology Technician",
@@ -68,7 +70,8 @@ const programData = {
     "strategies": ["Error Analysis Charts (defect → cause → cure)", "Color-Coded Reading of cause vs. correction", "Paired Reading with Demonstration", "'Explain the Fix' Reflections"],
     "text_source": "ASE Certification Prep: Painting and Refinishing ASE Test B2",
     "placement": "Texts are direct and procedural but assume strong vocabulary recall. Students must distinguish between cause, symptom, and corrective action.",
-    "image": "images/automotive_collision_technology_technician.jpg"
+    "image": "images/automotive_collision_technology_technician.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Automotive_Collision_Technology_Technician_1.png, images/Program_Text_Examples_images/Automotive_Collision_Technology_Technician_2.png, images/Program_Text_Examples_images/Automotive_Collision_Technology_Technician_3.png"
   },
   "aviation_airframe": {
     "name": "Aviation Airframe Mechanics",
@@ -91,7 +94,8 @@ const programData = {
     "strategies": ["Visual Scaffolds (schematics, color-coded diagrams)", "Chunking Complex Text into Procedural Steps", "Vocabulary Notebooks", "Reciprocal Teaching (students summarize process steps)"],
     "text_source": "FAA-H-8083-31B General Handbook",
     "placement": "High-density technical language, multi-step logical reasoning, and scientific vocabulary. Strong reading fluency and familiarity with scientific syntax are essential.",
-    "image": "images/aviation_airframe_mechanics.jpg"
+    "image": "images/aviation_airframe_mechanics.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Aviation_Airframe_Mechanics_1.png, images/Program_Text_Examples_images/Aviation_Airframe_Mechanics_2.png, images/Program_Text_Examples_images/Aviation_Airframe_Mechanics_3.png"
   },
   "aviation_powerplant": {
     "name": "Aviation Powerplant Mechanics",
@@ -114,7 +118,8 @@ const programData = {
     "strategies": ["Visual Scaffolds (schematics, color-coded diagrams)", "Chunking Complex Text into Procedural Steps", "Vocabulary Notebooks", "Reciprocal Teaching (students summarize process steps)"],
     "text_source": "FAA 8083 AMT Powerplant Handbook",
     "placement": "Heavy concentration of technical terminology, schematic interpretation, and FAA regulatory language. Students with limited aviation background may need vocabulary scaffolds.",
-    "image": "images/aviation_powerplant_mechanics.jpg"
+    "image": "images/aviation_powerplant_mechanics.jpg",
+    "sample_image": "images/Program_Text_Examples_images/Aviation_Powerplant_Mechanics_1.png, images/Program_Text_Examples_images/Aviation_Powerplant_Mechanics_2.png, images/Program_Text_Examples_images/Aviation_Powerplant_Mechanics_3.png"
   },
   "avionics": {
     "name": "Avionics Systems Technician",
@@ -137,7 +142,8 @@ const programData = {
     "strategies": ["Interactive Diagram Labeling", "Stepwise Summarization", "Guided Vocabulary Logs with Visuals", "Reciprocal Questioning to connect theory to system behavior"],
     "text_source": "Avionics: Beyond the AET (Iridium and Transmitter Systems)",
     "placement": "Texts are dense and informational, demanding integration of electronic theory, systems diagrams, and mathematical reasoning.",
-    "image": "images/avionics_systems_technician.jpg"
+    "image": "images/avionics_systems_technician.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Avionics_Systems_Technician_1.png, images/Program_Text_Examples_images/Avionics_Systems_Technician_2.png, images/Program_Text_Examples_images/Avionics_Systems_Technician_3.png"
   },
   "building_construction": {
     "name": "Building Construction Technologies",
@@ -160,7 +166,8 @@ const programData = {
     "strategies": ["Math-to-Text Translation", "Applied Reading Walkthroughs", "Structured Word Walls (technical + math terms)", "Think-Aloud Modeling for interpreting specifications"],
     "text_source": "NCCER Construction Technology, Pearson (Section 4.0.0 Stair Calculations)",
     "placement": "The text blends technical vocabulary, procedural language, and applied math. Strong contextual clues make it readable with moderate scaffolding.",
-    "image": "images/building_construction_technologies.jpg"
+    "image": "images/building_construction_technologies.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Building_Construction_Technology_1.png, images/Program_Text_Examples_images/Building_Construction_Technology_2.png, images/Program_Text_Examples_images/Building_Construction_Technology_3.png"
   },
   "csit": {
     "name": "Computer Systems & Information Technology",
@@ -183,7 +190,8 @@ const programData = {
     "strategies": ["Concept-Mapping of Protocols", "Guided Annotation of Configuration Rules", "Acronym Decoding Routines", "Diagram-to-Text Translation Activities", "Structured Compare-and-Contrast Reading"],
     "text_source": "Cisco-aligned networking curriculum (EtherChannel, PAgP, LACP, Flex Links)",
     "placement": "Best suited for students with solid foundational reading skills who can sustain attention through dense technical explanations.",
-    "image": "images/computer_systems_information_technology.jpg"
+    "image": "images/computer_systems_information_technology.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Computer_Systems_&_Information_Technology_1.png, images/Program_Text_Examples_images/Computer_Systems_&_Information_Technology_2.png, images/Program_Text_Examples_images/Computer_Systems_&_Information_Technology_3.png"
   },
   "cosmetology": {
     "name": "Cosmetology",
@@ -206,7 +214,8 @@ const programData = {
     "strategies": ["Demonstration-to-Text Linking", "Annotated Visuals", "Paired Reading and Practice", "Concept Mapping of chemical and anatomical terms"],
     "text_source": "Milady 2023",
     "placement": "Texts include anatomy, chemistry of hair and skin, sanitation laws, and procedural guides with specialized but familiar vocabulary.",
-    "image": "images/cosmetology.jpg"
+    "image": "images/cosmetology.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Cosmetology_1.png, images/Program_Text_Examples_images/Cosmetology_2.png, images/Program_Text_Examples_images/Cosmetology_3.png"
   },
   "database_programming": {
     "name": "Database Application Development & Programming",
@@ -229,7 +238,8 @@ const programData = {
     "strategies": ["Code Annotation", "Flowchart Construction", "Dual Coding (syntax + visual)", "Logic Retell", "Worked-Example Comparison", "Technical Vocabulary Mapping", "Prediction Prompts before execution", "Think-Aloud Debugging", "Structured Error-Analysis Routines"],
     "text_source": "Database fundamentals, SQL syntax, programming documentation",
     "placement": "Best suited for students with solid reading fluency, strong sequential reasoning, and comfort with logic-based tasks.",
-    "image": "images/database_application_development_programming.jpg"
+    "image": "images/database_application_development_programming.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Database_Application_Development_&_Programming_1.png, images/Program_Text_Examples_images/Database_Application_Development_&_Programming_2.png, images/Program_Text_Examples_images/Database_Application_Development_&_Programming_3.gif, images/Program_Text_Examples_images/Database_Application_Development_&_Programming_4.png, images/Program_Text_Examples_images/Database_Application_Development_&_Programming_5.png, images/Program_Text_Examples_images/Database_Application_Development_&_Programming_6.gif, images/Program_Text_Examples_images/Database_Application_Development_&_Programming_7.png, images/Program_Text_Examples_images/Database_Application_Development_&_Programming_8.png, images/Program_Text_Examples_images/Database_Application_Development_&_Programming_9.gif, images/Program_Text_Examples_images/Database_Application_Development_&_Programming_10.png"
   },
   "dental_assisting": {
     "name": "Dental Assisting",
@@ -252,7 +262,8 @@ const programData = {
     "strategies": ["Chunked Guided Reading", "Annotated Diagrams", "Keyword Highlighting", "Instructor-Led Think-Pair-Share for applied comprehension"],
     "text_source": "Modern Dental Assisting, 14th Edition (X-ray Production excerpt)",
     "placement": "Ideal for students who can visualize mechanical processes and tolerate technical vocabulary.",
-    "image": "images/dental_assisting.jpg"
+    "image": "images/dental_assisting.jpg",
+    "sample_image": "images/Program_Text_Examples_images/Dental_Assisting_1.png, images/Program_Text_Examples_images/Dental_Assisting_2.png, images/Program_Text_Examples_images/Dental_Assisting_3.png"
   },
   "digital_media": {
     "name": "Digital Media / Multimedia Design",
@@ -275,7 +286,8 @@ const programData = {
     "strategies": ["Code Annotation", "Dual Coding (markup + render view)", "Purpose Tagging ('what this element does')", "Think-Aloud Modeling", "Worked-Example Comparisons", "Structured Retell of Process Flow", "Keyword-Purpose Mapping"],
     "text_source": "Instructor-created instructional materials (Pete DiMaria)",
     "placement": "Best suited for students with moderate-to-strong reading fluency who can follow step sequences and recognize patterns.",
-    "image": "images/digital_media_multimedia_design.jpg"
+    "image": "images/digital_media_multimedia_design.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Digital_Media_1.png, images/Program_Text_Examples_images/Digital_Media_2.png, images/Program_Text_Examples_images/Digital_Media_3.png"
   },
   "drafting": {
     "name": "Drafting",
@@ -298,7 +310,8 @@ const programData = {
     "strategies": ["Spatial Reading Strategies", "Paired Sketch-and-Summarize", "Caption Writing for Diagrams", "Interactive Scale Exercises"],
     "text_source": "Architectural Graphics, Francis D.K. Ching, 7th Edition",
     "placement": "Accessible language but cognitively demanding due to the density of illustrations and dual-coding of information.",
-    "image": "images/drafting.jpg"
+    "image": "images/drafting.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Drafting_1.png, images/Program_Text_Examples_images/Drafting_2.png, images/Program_Text_Examples_images/Drafting_3.png"
   },
   "early_childhood": {
     "name": "Early Childhood Education",
@@ -321,7 +334,8 @@ const programData = {
     "strategies": ["Chunked Theory-to-Practice Mapping", "Case Study Annotation", "Color-Coded Concept Sorting", "Guided Note Templates", "Reflective Quickwrites", "Vocabulary Concept Cards", "Think-Aloud Modeling for dense theoretical paragraphs"],
     "text_source": "CDA Council Texts; Conscious Discipline (Bailey); Developmental Theory & Practice Texts",
     "placement": "Texts integrate developmental theory, psychology, cognitive science, social-emotional frameworks, and practical guidance.",
-    "image": "images/early_childhood_education.jpg"
+    "image": "images/early_childhood_education.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Early_Childhood_Education_1.png, images/Program_Text_Examples_images/Early_Childhood_Education_2.png, images/Program_Text_Examples_images/Early_Childhood_Education_3.png"
   },
   "electronic_systems": {
     "name": "Electronic Systems Integration & Automation",
@@ -344,7 +358,8 @@ const programData = {
     "strategies": ["Formula Annotation", "Dual Coding (equations + diagrams)", "Step-Sequenced Problem Walkthroughs", "Unit-Conversion Mapping", "Think-Aloud Calculations", "Error-Analysis Routines", "Prediction Prompts before solving"],
     "text_source": "Instructor-developed electrical theory modules (Ohm's Law, power, conversions)",
     "placement": "Best suited for students with moderate math fluency, ability to follow ordered steps, and comfort working with formulas.",
-    "image": "images/electronic_systems_integration_automation.jpg"
+    "image": "images/electronic_systems_integration_automation.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Electronic_Systems_Integration_1.png, images/Program_Text_Examples_images/Electronic_Systems_Integration_2.png, images/Program_Text_Examples_images/Electronic_Systems_Integration_3.png"
   },
   "enterprise_desktop": {
     "name": "Enterprise Desktop and Mobile Support Technology",
@@ -367,7 +382,8 @@ const programData = {
     "strategies": ["Think-Alouds while reading documentation", "Guided Note Templates for process logs", "Flowcharting to represent procedures"],
     "text_source": "A+ Core 1 and Core 2 CertMaster Learn",
     "placement": "Reading materials include troubleshooting guides, system documentation, and network configuration procedures.",
-    "image": "images/enterprise_desktop_and_mobile_support_technology.jpg"
+    "image": "images/enterprise_desktop_and_mobile_support_technology.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Enterprise_Desktop_and_Mobile_S_1.gif"
   },
   "facials_specialty": {
     "name": "Facials Specialty",
@@ -390,7 +406,8 @@ const programData = {
     "strategies": ["Step-by-Step Walk-Throughs with Annotated Visuals", "Before/After Diagrams (ion movement/follicle changes)", "Vocabulary Mapping of technical terms", "Cloze-Reading Activities (polarity, chemical reactions)", "Safety-Scenario Reading Tasks", "Teach-Back Rotations"],
     "text_source": "Milady Standard Esthetics: Chapter 10 – Facial Devices and Technology",
     "placement": "Learners who struggle with vocabulary or conditional instructions may misinterpret steps, especially when polarity, pressure, or timing affect safety.",
-    "image": "images/facials_specialty.jpg"
+    "image": "images/facials_specialty.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Facials_Specialty_1.jpg, images/Program_Text_Examples_images/Facials_Specialty_2.jpg,"
   },
   "heavy_equipment": {
     "name": "Heavy Equipment Service Technician",
@@ -413,7 +430,8 @@ const programData = {
     "strategies": ["Concept-Before-Procedure Teaching", "Flow Diagram Construction", "Cloze Reading for formulas", "Peer Explanation Rotations"],
     "text_source": "HEST Year 2 digital curriculum (Turbocharger functions)",
     "placement": "Text combines advanced mechanical theory with quantitative reasoning. Vocabulary assumes familiarity with physics and combustion processes.",
-    "image": "images/heavy_equipment_service_technician.jpg"
+    "image": "images/heavy_equipment_service_technician.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Heavy_Equipment_Service_Technic_1.png,"
   },
   "hvacr": {
     "name": "HVAC/R",
@@ -436,7 +454,8 @@ const programData = {
     "strategies": ["Concept-Before-Procedure Teaching", "Flow Diagrams for troubleshooting", "Dual-Coded Graphics for wiring/components", "Guided Cloze Notes for formulas/safety language", "Vocabulary Notebooks tied to real components", "Think-Aloud Modeling of manual interpretation", "Partner Read-and-Do Rotations"],
     "text_source": "Understanding and Implementing Starting Capacitors in Split Systems",
     "placement": "Learners with weak decoding or limited stamina for complex informational text often struggle during the first 150 hours.",
-    "image": "images/hvacr.jpg"
+    "image": "images/hvacr.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/HVAC_R_1.png, images/Program_Text_Examples_images/HVAC_R_2.png, images/Program_Text_Examples_images/HVAC_R_3.png, images/Program_Text_Examples_images/HVAC_R_4.png, images/Program_Text_Examples_images/HVAC_R_5.png, images/Program_Text_Examples_images/HVAC_R_6.png, images/Program_Text_Examples_images/HVAC_R_7.png, images/Program_Text_Examples_images/HVAC_R_8.png"
   },
   "machining": {
     "name": "Machining Technologies (CNC)",
@@ -459,7 +478,8 @@ const programData = {
     "strategies": ["Symbol Decoding Activities", "Visual Note-Taking", "Guided Problem Breakdown", "Collaborative Error Analysis"],
     "text_source": "Machine Trades Print Reading, G-W Publisher",
     "placement": "Sentences are concise but conceptually dense, requiring attention to tolerances, geometry, and schematic interpretation.",
-    "image": "images/machining_technologies_cnc.jpg"
+    "image": "images/machining_technologies_cnc.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Machining_Technologies_(CNC)_1.png"
   },
   "marine_service": {
     "name": "Marine Service Technologies",
@@ -482,7 +502,8 @@ const programData = {
     "strategies": ["Diagram Tracing with Concurrent Verbalization", "Safety Cue Highlighting", "Color-Coded Electrical Mapping", "Paired Reading between Text and Schematic", "'Explain Your Reasoning' Debriefs after lab procedures"],
     "text_source": "Yamaha Outboard Systems Manual and ABYC Marine Electrical Systems Manual",
     "placement": "Texts mix technical specifications, procedural steps, and conceptual electrical theory. Reading success depends on tolerance for detail and ability to visualize systems in 3D.",
-    "image": "images/marine_service_technologies.jpg"
+    "image": "images/marine_service_technologies.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Marine_Service_Technologies_1.png, images/Program_Text_Examples_images/Marine_Service_Technologies_2.png, images/Program_Text_Examples_images/Marine_Service_Technologies_3.png"
   },
   "master_auto": {
     "name": "Master Automotive Service Technology",
@@ -505,7 +526,8 @@ const programData = {
     "strategies": ["Diagram Analysis", "Analogical Reasoning (electricity to fluid flow)", "Guided Annotation of cause/effect statements", "Think-Do-Reflect Cycles linking readings to lab performance"],
     "text_source": "Fundamentals of Automotive Technology, CDX",
     "placement": "Texts integrate scientific reasoning, physics-based concepts, and applied systems language. Requires comfort with abstract cause-and-effect reasoning.",
-    "image": "images/master_automotive_service_technology.jpg"
+    "image": "images/master_automotive_service_technology.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Master_Automotive_Service_Techn_1.png"
   },
   "medical_assisting": {
     "name": "Medical Assisting",
@@ -528,7 +550,8 @@ const programData = {
     "strategies": ["Annotated Diagram Reading", "Dual Coding (text + labeled ECG visuals)", "Vocabulary Mapping for conduction terms", "Step-Sequencing Exercises", "Think-Aloud Modeling during ECG interpretation", "Prediction Prompts", "Structured Error-Analysis Routines", "Procedural Retelling"],
     "text_source": "Fundamentals of Clinical Medical Assisting – Chapter 26 (Electrocardiography)",
     "placement": "Text is dense with medical terminology, anatomy/physiology concepts, and procedural descriptions requiring precise comprehension.",
-    "image": "images/medical_assisting.jpg"
+    "image": "images/medical_assisting.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Medical_Assisting_1.png, images/Program_Text_Examples_images/Medical_Assisting_2.png, images/Program_Text_Examples_images/Medical_Assisting_3.png"
   },
   "nursing_assistant": {
     "name": "Nursing Assistant (Long-Term Care)",
@@ -551,7 +574,8 @@ const programData = {
     "strategies": ["Vocabulary Mapping", "Diagram Labeling", "Sequential Retell of Procedures", "Dual Coding"],
     "text_source": "Mosby's Textbook for Nursing Assistants",
     "placement": "Procedural and descriptive text with focus on safety and empathy.",
-    "image": "images/nursing_assistant_longterm_care.jpg"
+    "image": "images/nursing_assistant_longterm_care.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Nursing_Assistant_(Long-Term_Care)_1.png, images/Program_Text_Examples_images/Nursing_Assistant_(Long-Term_Care)_2.png, images/Program_Text_Examples_images/Nursing_Assistant_(Long-Term_Care)_3.png"
   },
 "Patient_Care_Technician": {
     "name": "Patient Care Technician",
@@ -580,7 +604,8 @@ const programData = {
     ],
     "text_source": "Hartman's Complete Guide for the Patient Care Technician (2024)",
     "placement": "Texts are procedural and highly structured, blending patient-centered ethics with technical instructions.",
-    "image": "images/patient_care_technician.jpg"
+    "image": "images/patient_care_technician.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Patient_Care_Technician_1.png, images/Program_Text_Examples_images/Patient_Care_Technician_2.png, images/Program_Text_Examples_images/Patient_Care_Technician_3.png"
 },
 "Pharmacy_Technician": {
     "name": "Pharmacy Technician",
@@ -613,7 +638,8 @@ const programData = {
     ],
     "text_source": "Mosby's Pharmacy Technician: Principles and Practice, 7e",
     "placement": "Students reading significantly below grade level or weak in math vocabulary will need intensive scaffolds.",
-    "image": "images/pharmacy_technician.jpg" 
+    "image": "images/pharmacy_technician.jpg" , 
+    "sample_image": "images/Program_Text_Examples_images/Pharmacy_Technician_1.png, images/Program_Text_Examples_images/Pharmacy_Technician_2.png, images/Program_Text_Examples_images/Pharmacy_Technician_3.png"
 },
 "Phlebotomy": {
     "name": "Phlebotomy",
@@ -644,7 +670,8 @@ const programData = {
     ],
     "text_source": "Hartman's Complete Guide for the Phlebotomy Technician: The Circulatory System",
     "placement": "Best suited for students with moderate reading fluency, comfort with scientific vocabulary, and ability to follow multi-step processes accurately.",
-    "image": "images/phlebotomy.jpg"
+    "image": "images/phlebotomy.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Phlebotomy_1.png, images/Program_Text_Examples_images/Phlebotomy_2.png, images/Program_Text_Examples_images/Phlebotomy_3.png"
 },
 "Practical_Nursing": {
     "name": "Practical Nursing",
@@ -673,7 +700,8 @@ const programData = {
     ],
     "text_source": "ATI Nursing Fundamentals (Urinary Incontinence and Fluid/Electrolyte Balance)",
     "placement": "Text blends scientific explanation with clinical application. Success depends on understanding cause-and-effect relationships and conceptual transfer.",
-    "image": "images/practical_nursing.jpg"
+    "image": "images/practical_nursing.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Practical_Nursing_1.png, images/Program_Text_Examples_images/Practical_Nursing_2.png, images/Program_Text_Examples_images/Practical_Nursing_3.png"
 },
 "Professional_Culinary_Arts_&_Hospitality": {
     "name": "Professional Culinary Arts & Hospitality",
@@ -701,7 +729,8 @@ const programData = {
     ],
     "text_source": "Professional Cooking, 8th Edition",
     "placement": "Text blends technical precision with culinary artistry. Success depends on understanding sequence, measurement, and conceptual transfer.",
-    "image": "images/professional_culinary_arts_hospitality.jpg"
+    "image": "images/professional_culinary_arts_hospitality.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Professional_Culinary_Arts_&_Ho_1.png, images/Program_Text_Examples_images/Professional_Culinary_Arts_&_Ho_2.png, images/Program_Text_Examples_images/Professional_Culinary_Arts_&_Ho_3.png"
 },
 "Proffesional_Nursing": {
     "name": "Professional Nursing",
@@ -729,7 +758,8 @@ const programData = {
     ],
     "text_source": "Complex Case Study: Multiple Comorbidities with Head Trauma",
     "placement": "Texts combine scientific and clinical writing, requiring comprehension of anatomy, pharmacology, and ethical standards.",
-    "image": "images/professional_nursing.jpg"    
+    "image": "images/professional_nursing.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Professional_Nursing_1.jpg, images/Program_Text_Examples_images/Professional_Nursing_2.jpg, images/Program_Text_Examples_images/Professional_Nursing_3.jpg"
 },
 "Surgical_Technology": {
     "name": "Surgical Technology",
@@ -761,7 +791,8 @@ const programData = {
     ],
     "text_source": "MAVCC – Introduction to Surgical Technology (Anesthesia, Regional Blocks, Tissue Types)",
     "placement": "Cognitive load is significant because sections present hierarchical information (stages → sub-steps → cautions → complications).",
-    "image": "images/surgical_technology.jpg"
+    "image": "images/surgical_technology.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Surgical_Technology_1.png, images/Program_Text_Examples_images/Surgical_Technology_2.png, images/Program_Text_Examples_images/Surgical_Technology_3.png"
 },
 "Veterinary_Assisting": {
     "name": "Veterinary Assisting",
@@ -792,7 +823,8 @@ const programData = {
     ],
     "text_source": "Avian Anatomy and Physiology instructional text",
     "placement": "Demands strong reading stamina, advanced decoding of anatomical terminology, and ability to mentally model complex internal systems.",
-    "image": "images/veterinary_assisting.jpg"
+    "image": "images/veterinary_assisting.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Veterinary_Assisting.jpg, images/Program_Text_Examples_images/Veterinary_Assisting_2.png, images/Program_Text_Examples_images/Veterinary_Assisting_3.png"
 }, 
 "Welding_Technology": {
     "name": "Welding Technology",
@@ -820,6 +852,7 @@ const programData = {
     ],
     "text_source": "American Welding Society (2023)",
     "placement": "Success hinges on spatial reasoning and applied reading comprehension rather than literary analysis.",
-    "image": "images/welding_technology.jpg"
+    "image": "images/welding_technology.jpg", 
+    "sample_image": "images/Program_Text_Examples_images/Welding_Technology_1.png, images/Program_Text_Examples_images/Welding_Technology_2.png, images/Program_Text_Examples_images/Welding_Technology_3.png"
 }
 };
