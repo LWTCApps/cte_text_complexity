@@ -90,19 +90,19 @@ const COMPLEXITY_COLORS = {
 };
 
 Chart 1: Lexile Range (chartLexile)Evaluated top-to-bottom based on the midpoint of the text's Lexile score:
-Midpoint >= 1350 $\rightarrow Severe (--dark-red)
-Midpoint >= 1280 $\rightarrow$ High (--red)
-Midpoint >= 1250 $\rightarrow$ MediumHigh (--orange)
-Midpoint >= 1160 $\rightarrow$ Medium (--yellow)
-Below 1160 $\rightarrow$ Low (--green-light)
+Midpoint >= 1350 -> Severe (--dark-red)
+Midpoint >= 1280 -> High (--red)
+Midpoint >= 1250 -> MediumHigh (--orange)
+Midpoint >= 1160 -> Medium (--yellow)
+Below 1160 -> Low (--green-light)
 
 Chart 2: Program Reading Barrier (chartBarrier)
 Evaluated based on the percentage of the course that acts as a reading barrier:
-Percentage > 55% $\rightarrow$ Severe (--dark-red)
-Percentage 47.5% - 55% $\rightarrow$ High (--red)
-Percentage 40% - 47.4% $\rightarrow$ MediumHigh (--orange)
-Percentage 30% - 39.9% $\rightarrow$ Medium (--yellow)
-Below 30% $\rightarrow$ Low (--green-light)5. 
+Percentage > 55% -> Severe (--dark-red)
+Percentage 47.5% - 55% -> High (--red)
+Percentage 40% - 47.4% -> MediumHigh (--orange)
+Percentage 30% - 39.9% -> Medium (--yellow)
+Below 30% -> Low (--green-light)5. 
 
 5. Managing Image Samples & Full-Scale Lightbox
 
@@ -120,7 +120,7 @@ Formats & Fallback Engine
 
 If a program uses format styles other than .png, the browser executes an automatic fallback chain loop:
 
-$$\text{.png} \longrightarrow \text{.jpg} \longrightarrow \text{.gif}$$
+$$\text{.png} --> \text{.jpg} --> \text{.gif}$$
 
 If the file doesn't exist under any of these extensions, the thumbnail will hide itself cleanly without creating layout issues.
 
