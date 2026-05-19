@@ -148,7 +148,7 @@ body{font-family:'Source Serif 4',Georgia,serif;background:var(--light);color:va
 .charts-grid-3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:24px;margin-bottom:24px}
 .charts-grid-top{display:grid;grid-template-columns:2fr 1fr;gap:24px;margin-bottom:24px;align-items:start}
 .chart-card-stack{display:flex;flex-direction:column;gap:24px}
-@media(max-width:900px){.charts-grid-top{grid-template-columns:1fr}.chart-card-stack{flex-direction:row}}
+@media(max-width:900px){.charts-grid-top{grid-template-columns:1fr}.charts-grid{grid-template-columns:1fr}.chart-card-stack{flex-direction:column}}
 .chart-card{background:var(--white);border-radius:var(--radius-lg);padding:24px;border:1px solid var(--border);box-shadow:var(--shadow)}
 .chart-card h3{font-family:'Montserrat',sans-serif;font-weight:700;font-size:17px;color:var(--dark);margin-bottom:4px}
 .chart-card p{font-size:13px;color:var(--muted);margin-bottom:16px}
@@ -565,12 +565,19 @@ tbody td:first-child{font-family:'Montserrat',sans-serif;font-weight:700;font-si
     </div>
   </section>
   <section class="section">
-    <div class="charts-grid-top">
+    <div class="charts-grid">
       <div class="chart-card">
         <h3>Lexile Range by Program</h3>
         <p>Midpoint Lexile score — dark-red = above 1350L, red = 1280–1330L, orange = 1241-1279, yellow = 1151-1240, green = below 1150L</p>
         <canvas id="chartLexile" height="400"></canvas>
       </div>
+      <div class="chart-card">
+        <h3>Workforce Literacy Relevance (1–5)</h3>
+        <p>How critical strong reading is to on-the-job performance, by program</p>
+        <canvas id="chartWorkforce" height="400"></canvas>
+      </div>
+    </div>
+    <div class="charts-grid">
       <div class="chart-card-stack">
         <div class="chart-card">
           <h3>FLDOE Gap Distribution</h3>
@@ -582,13 +589,6 @@ tbody td:first-child{font-family:'Montserrat',sans-serif;font-weight:700;font-si
           <p>Distribution of the 33 programs across career sectors</p>
           <canvas id="chartSector" height="180"></canvas>
         </div>
-      </div>
-    </div>
-    <div class="charts-grid">
-      <div class="chart-card">
-        <h3>Workforce Literacy Relevance (1–5)</h3>
-        <p>How critical strong reading is to on-the-job performance, by program</p>
-        <canvas id="chartWorkforce" height="400"></canvas>
       </div>
       <div class="chart-card">
         <h3>% Course Where Reading Is a Barrier</h3>
