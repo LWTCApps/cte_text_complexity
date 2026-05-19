@@ -71,7 +71,7 @@ const programData = {
     "text_source": "ASE Certification Prep: Painting and Refinishing ASE Test B2",
     "placement": "Texts are direct and procedural but assume strong vocabulary recall. Students must distinguish between cause, symptom, and corrective action.",
     "image": "images/automotive_collision_technology_technician.jpg", 
-    "sample_image": "images/Program_Text_Examples_images/Automotive_Collision_Technology_Technician_1.png, images/Program_Text_Examples_images/Automotive_Collision_Technology_Technician_2.png, images/Program_Text_Examples_images/Automotive_Collision_Technology_Technician_3.png"
+    "sample_image": "images/Program_Text_Examples_images/Automotive_Collision_Technology_1.png"
   },
   "aviation_airframe": {
     "name": "Aviation Airframe Mechanics",
