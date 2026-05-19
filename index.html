@@ -407,6 +407,40 @@ tbody td:first-child{font-family:'Montserrat',sans-serif;font-weight:700;font-si
   opacity: 0.9;
 }
 
+/* Responsive Full-Screen Modals for Mobile & Small Screen Devices */
+@media (max-width: 768px) {
+  /* 1. Make the modal modal box expand completely */
+  .modal {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: 100% !important;
+    max-height: 100% !important;
+    margin: 0 !important;
+    border-radius: 0 !important; /* Drops rounded corners for a clean screen fill */
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* 2. Lock the header at the top of the viewport */
+  .modal-header {
+    padding: 16px;
+    border-radius: 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* 3. Allow the body contents to scroll independently underneath */
+  .modal-body {
+    padding: 16px;
+    overflow-y: auto;
+    flex: 1;
+    -webkit-overflow-scrolling: touch; /* Ensures smooth kinetic scrolling on iOS Safari */
+  }
+}
+
 </style>
 </head>
 <link rel="icon" type="image/x-icon" href="Logos/favicon.ico">
