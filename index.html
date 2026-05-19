@@ -1204,9 +1204,9 @@ function buildCharts() {
     }
   });
 
-  // 5) Gap distribution bar
+  // 5) FLDOE Gap distribution bar
   const gapOrder = ['Low to Medium Gap','Medium Gap','Medium to High Gap','High Gap','Significant Gap','Severe Gap'];
-  const gapColorMap = { 'Low to Medium Gap': COMPLEXITY_COLORS.low, 'Medium Gap': COMPLEXITY_COLORS.medium, 'Medium to High Gap': COMPLEXITY_COLORS.mediumHigh, 'High Gap': COMPLEXITY_COLORS.high, 'Significant Gap': COMPLEXITY_COLORS.high, 'Severe Gap': COMPLEXITY_COLORS.severe };
+  const gapColorMap = { 'Low to Medium Gap': COMPLEXITY_COLORS.low, 'Medium Gap': COMPLEXITY_COLORS.medium, 'Medium to High Gap': COMPLEXITY_COLORS.mediumHigh, 'High Gap': COMPLEXITY_COLORS.mediumHigh, 'Significant Gap': COMPLEXITY_COLORS.high, 'Severe Gap': COMPLEXITY_COLORS.severe };
   const gapCount = {};
   PROGRAMS.forEach(p => { gapCount[p.gap] = (gapCount[p.gap] || 0) + 1; });
   const gapLabels = gapOrder.filter(g => gapCount[g]);
@@ -1428,15 +1428,40 @@ function clearStrat(idx) {
 }
 </script>
 <script>
-  window.addEventListener('scroll', function() {
+  (function () {
     const header = document.querySelector('.site-header');
-    // Increasing this to 80px makes the transition feel more intentional
-    if (window.scrollY > 80) {
-      header.classList.add('header-collapsed');
-    } else {
-      header.classList.remove('header-collapsed');
-    }
-  });
+    const COLLAPSE_AFTER = 120;   // px scrolled down before collapsing
+    const EXPAND_ABOVE   = 40;    // px — re-expand only when scroll is this close to top
+    const MIN_DELTA      = 6;     // px — ignore jitter smaller than this
+
+    let lastY     = window.scrollY;
+    let ticking   = false;
+
+    window.addEventListener('scroll', function () {
+      if (!ticking) {
+        requestAnimationFrame(function () {
+          const y     = window.scrollY;
+          const delta = y - lastY;
+
+          if (Math.abs(delta) >= MIN_DELTA) {
+            if (delta > 0 && y > COLLAPSE_AFTER) {
+              // Scrolling down and past the threshold — collapse
+              header.classList.add('header-collapsed');
+            } else if (delta < 0 && y < EXPAND_ABOVE) {
+              // Scrolling up and near the top — expand
+              header.classList.remove('header-collapsed');
+            }
+            // Mid-page upward scroll intentionally leaves state unchanged
+            // to avoid the header popping open on every upward nudge
+            lastY = y;
+          }
+
+          ticking = false;
+        });
+        ticking = true;
+      }
+    }, { passive: true });
+  })();
 </script>
 </body>
 </html>
