@@ -121,8 +121,8 @@ body{font-family:'Source Serif 4',Georgia,serif;background:var(--light);color:va
 .card-strategies{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px}
 .strategy-pill{font-family:'Montserrat',sans-serif;font-weight:600;font-size:11px;padding:3px 10px;background:var(--cyan-dim);color:var(--cyan);border-radius:12px;border:1px solid rgba(0,174,239,.2)}
 .card-gap{font-family:'Montserrat',sans-serif;font-weight:600;font-size:11px;padding:5px 10px;border-radius:6px;display:inline-block}
-.gap-severe{background:#fee;color:#780000}.gap-significant{background:#ffd;color:#fd8c00}
-.gap-high{background:#ffe;color:#dc0000}.gap-moderate{background:#ffe;color:#fdc500}.gap-low{background:#efe;color:#a6d96a}
+.gap-severe{background:#fee;color:var(--dark-red)}.gap-significant{background:#ffd;color:var(--orange)}
+.gap-high{background:#ffe;color:var(--red)}.gap-moderate{background:#ffe;color:var(--yellow)}.gap-low{background:#efe;color:var(--green)}
 .card-footer{padding:12px 20px;border-top:1px solid var(--border);background:var(--light);display:flex;justify-content:space-between;align-items:center}
 .card-fldoe{font-family:'Montserrat',sans-serif;font-size:12px;color:var(--muted)}.card-fldoe strong{color:var(--dark)}
 .card-rating{display:flex;gap:3px}.star{color:var(--cyan);font-size:13px}.star-empty{color:var(--border);font-size:13px}
@@ -371,7 +371,7 @@ tbody td:first-child{font-family:'Montserrat',sans-serif;font-weight:700;font-si
 
 /* Optional: Custom Tooltip Styling (if not using native browser title) */
 #matrix-table thead th:hover::after {
-  content: attr(title);
+  content: attr(data-tooltip); /* Assumes you add a data-tooltip attribute with the description text */
   position: absolute;
   top: 100%;
   left: 50%;
@@ -831,7 +831,7 @@ tbody td:first-child{font-family:'Montserrat',sans-serif;font-weight:700;font-si
     </div>
   </div>
   <div class="footer-bottom">
-    <span>&copy; 2026 Collier County Public Schools &mdash; Workforce Education</span>
+    <span>&copy; 2025 Collier County Public Schools &mdash; Workforce Education</span>
     <span>Data: Post-Secondary CTE Text Complexity Matrix</span>
   </div>
 </footer>
@@ -1153,7 +1153,7 @@ function applyHeaderTooltips() {
     const dataKey = headerMap[index];
     if (dataKey && labelData[dataKey]) {
       // Sets the native browser tooltip
-      th.setAttribute('title', labelData[dataKey].description); 
+      th.setAttribute('data-tooltip', labelData[dataKey].description); 
       // Add a class for custom CSS styling
       th.classList.add('has-tooltip'); 
     }
